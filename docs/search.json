@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Source file: data/publications.md\nRecommended line style: Author list, “Title,” Journal, (Year), DOI link\nAuthor contribution markers are preserved exactly as entered in the source file"
+  },
+  {
+    "objectID": "publications.html#notes",
+    "href": "publications.html#notes",
+    "title": "Publications",
+    "section": "",
+    "text": "Source file: data/publications.md\nRecommended line style: Author list, “Title,” Journal, (Year), DOI link\nAuthor contribution markers are preserved exactly as entered in the source file"
+  },
+  {
+    "objectID": "publications.html#full-list",
+    "href": "publications.html#full-list",
+    "title": "Publications",
+    "section": "Full List",
+    "text": "Full List\n\nT. G. Weldemhret‡, D.-J. Yi‡, K. Jeong, K.-B. Chung, “Evaluation of the high mobility and stability of InGaZnO/InSnZnO bilayer thin-film transistors via quantitative defect analysis”, Surfaces and Interfaces, (2025), DOI:10.1016/j.surfin.2025.106870\nS. Bang‡, C. Lee‡, D. Choi, D. Y. Park, D. H. Kim, D. Lee, D.-J. Yi, J. Song, S. J. Yun, D.-W. Kim, M. S. Jeong, “High Performance P-Channel Transistor Based on Amorphous Tellurium Trioxide”, Advanced Materials, (2025), DOI:10.1002/adma.202504948\nD. H. Kim,† J. Yoo, H. C. Suh, Y. S. Won, S. H. Kim, D.-J. Yi, B. G. Jeong, C. Lee, D. Lee, K. K. Kim, S. M. Lee, E. K. Koh, M. S. Jeong, “Anomalous phonon softening with inherent strain in wrinkled monolayer WSe2”, Advanced Materials, (2025), DOI:10.1002/adma.202419414\nK. Jeong†, D. Y. Shin, J.-M. Park, D.-J. Yi, H. Hong, H.-S. Kim, K.-B. Chung, “Noncontact Monitoring and Imaging of the Operation and Performance of Thin-Film Field-Effect Transistors”, Advanced Science, (2025), DOI:10.1002/advs.202407923\nA. Song†, M. J. Kim, D.-J. Yi, S. Kwon, D.-W. Kim, S. Kim, J.-H. Bae, S. Park, Y. S. Rim, K.-S. Jeong, K.-B. and Chung, “Control of sensitivity in metal oxide electrolyte gated field-effect transistor-based glucose sensor by electronegativity modulation”, Scientific Reports, (2024), DOI:10.1038/s41598-024-76885-x\nH. Hong†, M. J. Kim, D.-J. Yi, D. Y. Shin, Y.-K. Moon, K.-S. Son, J. H. Lim, K. Jeong, K.-B. Chung, “Quantitative dynamic evolution of unoccupied states in hydrogen diffused InGaZnSnO TFT under positive bias temperature stress”, ACS Applied Electronic Materials, (2024), DOI:10.1021/acsaelm.4c01430\nH. Hong†, D.-J. Yi, Y.-K. Moon, K.-S. Son, J. H. Lim, K. Jeong, K.-B. Chung, “Double gated a-InGaZnO TFT properties based on quantitative defect analysis and computational modeling”, IEEE Transactions on Electron Devices, (2024), DOI:10.1109/TED.2023.3347503\nH. Hong†, M. J. Kim, D.-J. Yi, Y.-K. Moon, K.-S. Son, J. H. Lim, K. Jeong, K.-B. Chung, “Quantitative analysis of defect states in InGaZnO within 2 eV below the conduction band via photo-induced current transient spectroscopy”, Scientific Reports, (2023), DOI:10.1038/s41598-023-40162-0\n\n[Patents]\n\nK. CHUNG, K. JEONG, D. Yi, “Device array analysis method and analysis apparatus therefor”, US Patents, (2025)"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "## Research Focus\nMy research centers on quantitative defect and interface analysis in next-generation solid-state materials, especially oxide semiconductors and two-dimensional (2D) systems. I connect material-level evidence to device-level behavior through integrated measurement, modeling, and interpretation workflows.\nThe research strategy combines:"
+  },
+  {
+    "objectID": "research.html#defect-and-optical-spectroscopy",
+    "href": "research.html#defect-and-optical-spectroscopy",
+    "title": "Research",
+    "section": "1. Defect and Optical Spectroscopy",
+    "text": "1. Defect and Optical Spectroscopy\nDefects in oxide and 2D materials affect mobility, threshold behavior, stability, and optical response. The key objective is not only to detect defects, but to quantify their energy levels, densities, kinetics, and interfacial roles.\n\nDLTS and PICTS are used to extract deep-level parameters and correlate them with transistor metrics.\nRaman and photoluminescence spectroscopy track strain, doping, phase behavior, and defect-induced changes.\nXPS and spectroscopic ellipsometry link chemistry and optical constants to electrical performance trends.\n\n\n\n\n\nRepresentative spectroscopy and defect-analysis map for material and interface characterization.\n\n\n\nDefect characterization pipeline for extracting physically meaningful parameters from spectroscopy."
+  },
+  {
+    "objectID": "research.html#explainable-ai-for-experimental-data",
+    "href": "research.html#explainable-ai-for-experimental-data",
+    "title": "Research",
+    "section": "2. Explainable AI for Experimental Data",
+    "text": "2. Explainable AI for Experimental Data\nExperimental datasets are often small, condition-dependent, and heterogeneous. In this environment, AI should improve interpretation and reproducibility, not only predictive accuracy.\n\nEnd-to-end pipelines are designed for preprocessing, feature extraction, model training, and robust validation.\nExplainability methods identify decisive spectral or electrical regions and support hypothesis generation.\nData-limited strategies, including physics-aware preprocessing and stability checks, improve generalization.\n\n\n\n\n\nExplainable AI framework for spectroscopic and electrical datasets under experimental constraints.\n\n\n\nInterpretability-first AI workflow for extracting reliable and physically grounded evidence from experiments."
+  },
+  {
+    "objectID": "research.html#advanced-electronic-and-photonic-devices",
+    "href": "research.html#advanced-electronic-and-photonic-devices",
+    "title": "Research",
+    "section": "3. Advanced Electronic and Photonic Devices",
+    "text": "3. Advanced Electronic and Photonic Devices\nMaterial quality alone does not determine device outcomes. Performance and reliability depend on how defects and interfaces are managed in structure and process design.\n\nDevice behavior is analyzed through quantitative current-voltage and transient-response interpretation.\nOxide and 2D platforms are evaluated for logic-oriented and emerging architectures.\nFDTD simulation and inverse-design strategies are used when optical-field engineering is required.\n\n\n\n\n\nDevice-oriented translation of defect analysis with simulation-assisted design.\n\n\n\nTranslation from defect-level insight to electronic and photonic device engineering decisions."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Ph.D. Candidate\n\n\n\n\nI investigate defect-physics based on spectroscopy and explainable AI for Advanced electronic and photonic devices.\n\n\nResearch Publications 2-page CV"
+  },
+  {
+    "objectID": "index.html#current-position",
+    "href": "index.html#current-position",
+    "title": "Home",
+    "section": "Current Position",
+    "text": "Current Position\n\nPh.D. candidate, Semiconductor Nanophotonics Laboratory (SNLab), Hanyang University\nAdvisor: Prof. Mun Seok Jeong\nFocus: Defect physics, interpretable data analysis, and advanced device structures"
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Home",
+    "section": "Contact",
+    "text": "Contact\n\nPersonal Email: iver.ydj@gmail.com\nAcademic Email: iverydj@hanyang.ac.kr\nDepartment: Department of Electronic Engineering, Hanyang University\nGoogle Scholar: https://scholar.google.co.kr/citations?user=MZE2mWsAAAAJ&hl=ko&oi=ao\nFull CV (Google Docs): https://docs.google.com/document/d/1lrk7ocGFDo48wUvRRMkrh3YgPosDd4Yo/edit?usp=sharing&ouid=104466598745421942872&rtpof=true&sd=true"
+  },
+  {
+    "objectID": "career.html",
+    "href": "career.html",
+    "title": "Career",
+    "section": "",
+    "text": "Ph.D. student in Electronic Engineering\nHanyang University, Seoul, Republic of Korea\nMar 2024 - Aug 2027 (expected) | GPA: 4.3/4.5\nM.S. in Solid-state Physics\nDongguk University, Seoul, Republic of Korea\nSep 2022 - Feb 2024 | GPA: 4.5/4.5\nB.S. in Physics\nDongguk University, Seoul, Republic of Korea\nMar 2016 - Aug 2022 | GPA: 4.2/4.5"
+  },
+  {
+    "objectID": "career.html#education",
+    "href": "career.html#education",
+    "title": "Career",
+    "section": "",
+    "text": "Ph.D. student in Electronic Engineering\nHanyang University, Seoul, Republic of Korea\nMar 2024 - Aug 2027 (expected) | GPA: 4.3/4.5\nM.S. in Solid-state Physics\nDongguk University, Seoul, Republic of Korea\nSep 2022 - Feb 2024 | GPA: 4.5/4.5\nB.S. in Physics\nDongguk University, Seoul, Republic of Korea\nMar 2016 - Aug 2022 | GPA: 4.2/4.5"
+  },
+  {
+    "objectID": "career.html#appointments",
+    "href": "career.html#appointments",
+    "title": "Career",
+    "section": "Appointments",
+    "text": "Appointments\n\nPh.D. researcher, Semiconductor Nanophotonics Laboratory (SNLab), Hanyang University\nMar 2024 - Present\nM.S. researcher, Advanced Physics on Electromaterial Laboratory (APEL), Dongguk University\nSep 2022 - Feb 2024\nUndergraduate researcher, APEL, Dongguk University\nJul 2021 - Aug 2022"
+  },
+  {
+    "objectID": "career.html#scholarships-and-awards",
+    "href": "career.html#scholarships-and-awards",
+    "title": "Career",
+    "section": "Scholarships and Awards",
+    "text": "Scholarships and Awards\n\nPhysics Department Alumni Scholarship (Dongguk University), 2022 and 2023\nDongguk 1.1.1 Scholarship (Dongguk University), 2021\nDongguk Future Talent Scholarship (Dongguk University), 2022 and 2023\nIC-PBL Graduate Championship, 3rd Award (Hanyang University), 2024"
+  },
+  {
+    "objectID": "career.html#skills",
+    "href": "career.html#skills",
+    "title": "Career",
+    "section": "Skills",
+    "text": "Skills\n\nSpectroscopy: tip-enhanced nano-spectroscopy, ellipsometry, DLTS, and XPS\nMachine Learning: Physics-based analysis, deep learning for spectroscopic data, and explainable AI\nSimulation: Finite-Difference Time-Domain (FDTD), inverse design with adjoint optimization\nFabrication and Characterization: Electrical I-V/transient tests, photolithography, sputtering"
+  }
+]

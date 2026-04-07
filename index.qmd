@@ -1,0 +1,54 @@
+﻿---
+title: "Home"
+toc: false
+---
+
+::: {.hero}
+<p class="eyebrow">Ph.D. Candidate</p>
+# Dong-Joon Yi {.hero-title}
+
+<p class="hero-subtitle">
+I investigate defect-physics based on spectroscopy and explainable AI for Advanced electronic and photonic devices.
+</p>
+
+<div class="hero-actions">
+  <a class="action-link" href="research.html">Research</a>
+  <a class="action-link" href="publications.html">Publications</a>
+  <a class="action-link" href="assets/CV.pdf">2-page CV</a>
+</div>
+:::
+
+::: {.info-grid}
+::: {.info-card}
+### Defect Spectroscopy
+Energy-level extraction and trap-density quantification using DLTS, PICTS, Raman/PL, and interface-sensitive analysis.
+:::
+
+::: {.info-card}
+### Explainable AI for Experiments
+Interpretation-focused models that connect spectral and electrical features to physically meaningful mechanisms.
+:::
+
+::: {.info-card}
+### Device Translation
+Device characterization and simulation workflows that turn defect-level findings into engineering guidance.
+:::
+:::
+
+::: {.section-block}
+## Current Position {.section-title}
+
+- Ph.D. candidate, Semiconductor Nanophotonics Laboratory (SNLab), Hanyang University
+- Advisor: Prof. Mun Seok Jeong
+- Focus: Defect physics, interpretable data analysis, and advanced device structures
+:::
+
+::: {.section-block}
+## Contact {.section-title}
+
+- Personal Email: [iver.ydj@gmail.com](mailto:iver.ydj@gmail.com)
+- Academic Email: [iverydj@hanyang.ac.kr](mailto:iverydj@hanyang.ac.kr)
+- Department: [Department of Electronic Engineering, Hanyang University](https://ee.hanyang.ac.kr/)
+- Google Scholar: <https://scholar.google.co.kr/citations?user=MZE2mWsAAAAJ&hl=ko&oi=ao>
+- Full CV (Google Docs): <https://docs.google.com/document/d/1lrk7ocGFDo48wUvRRMkrh3YgPosDd4Yo/edit?usp=sharing&ouid=104466598745421942872&rtpof=true&sd=true>
+:::

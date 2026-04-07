@@ -1,0 +1,35 @@
+﻿project:
+  type: website
+  output-dir: docs
+  render:
+    - index.qmd
+    - research.qmd
+    - career.qmd
+    - publications.qmd
+
+website:
+  title: "Dong-Joon Yi"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: career.qmd
+        text: Career
+      - href: publications.qmd
+        text: Publications
+    right:
+      - href: assets/CV.pdf
+        text: "2-page CV (PDF)"
+  page-footer:
+    left: "Dong-Joon Yi"
+    right: "Defect spectroscopy | Explainable AI | Device physics"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    anchor-sections: true
+    link-external-newwindow: true

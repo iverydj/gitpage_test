@@ -1,0 +1,52 @@
+﻿---
+title: "Career"
+toc: true
+---
+
+::: {.section-block}
+## Education {.section-title}
+
+- **Ph.D. student in Electronic Engineering**  
+  Hanyang University, Seoul, Republic of Korea  
+  Mar 2024 - Aug 2027 (expected) | GPA: 4.3/4.5
+
+- **M.S. in Solid-state Physics**  
+  Dongguk University, Seoul, Republic of Korea  
+  Sep 2022 - Feb 2024 | GPA: 4.5/4.5
+
+- **B.S. in Physics**  
+  Dongguk University, Seoul, Republic of Korea  
+  Mar 2016 - Aug 2022 | GPA: 4.2/4.5
+:::
+
+::: {.section-block}
+## Appointments {.section-title}
+
+- **Ph.D. researcher**, Semiconductor Nanophotonics Laboratory (SNLab), Hanyang University  
+  Mar 2024 - Present
+
+- **M.S. researcher**, Advanced Physics on Electromaterial Laboratory (APEL), Dongguk University  
+  Sep 2022 - Feb 2024
+
+- **Undergraduate researcher**, APEL, Dongguk University  
+  Jul 2021 - Aug 2022
+
+:::
+
+::: {.section-block}
+## Scholarships and Awards {.section-title}
+
+- Physics Department Alumni Scholarship (Dongguk University), 2022 and 2023
+- Dongguk 1.1.1 Scholarship (Dongguk University), 2021
+- Dongguk Future Talent Scholarship (Dongguk University), 2022 and 2023
+- IC-PBL Graduate Championship, 3rd Award (Hanyang University), 2024
+:::
+
+::: {.section-block}
+## Skills {.section-title}
+
+- **Spectroscopy:** tip-enhanced nano-spectroscopy, ellipsometry, DLTS, and XPS
+- **Machine Learning:** Physics-based analysis, deep learning for spectroscopic data, and explainable AI
+- **Simulation:** Finite-Difference Time-Domain (FDTD), inverse design with adjoint optimization
+- **Fabrication and Characterization:** Electrical I-V/transient tests,  photolithography, sputtering
+:::
