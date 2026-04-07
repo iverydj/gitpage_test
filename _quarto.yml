@@ -35,3 +35,4 @@ format:
     grid:
       body-width: 1080px
       margin-width: 0px
+      sidebar-width: 0px
