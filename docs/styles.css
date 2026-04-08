@@ -438,7 +438,7 @@ main a:hover {
 
 /* patent header */
 .pub-patent-header {
-  color: var(--purple);
+  color: var(--light-blue);
   font-style: italic;
   font-weight: 600;
   margin-top: 1.5rem;
