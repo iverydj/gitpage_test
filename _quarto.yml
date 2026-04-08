@@ -11,8 +11,6 @@ website:
   title: "Dong-Joon Yi"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
       - href: research.qmd
         text: Research
       - href: career.qmd
