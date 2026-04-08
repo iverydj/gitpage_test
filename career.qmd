@@ -3,23 +3,29 @@ title: "Career"
 toc: true
 ---
 
-::: {.section-block}
-## Education
+::: {.section-block .career-edu}
+## Background
 
-**Ph.D. candidate in Electronic Engineering** — Hanyang University, Seoul\
-GPA 4.3 / 4.5 · Mar 2024 – present(Apr 2026)\
-Semiconductor Nanophotonics Laboratory\
-Advisor: Prof. Mun Seok Jeong
+<p class="edu-entry">
+<span class="edu-degree">Ph.D. candidate in Electronic Engineering</span> — <span class="edu-school">Hanyang University</span>, Seoul<br>
+<span class="edu-detail">GPA 4.3 / 4.5 · Mar 2024 – present (Apr 2026)</span><br>
+<span class="edu-lab">Semiconductor Nanophotonics Laboratory</span><br>
+<span class="edu-advisor">Advisor: Prof. Mun Seok Jeong</span>
+</p>
 
-**M.S. in Solid-state Physics** — Dongguk University, Seoul\
-GPA 4.5 / 4.5 · Sep 2022 – Feb 2024\
-Advanced Physics on Electromaterial Laboratory\
-Advisor: Prof. Kwun-Bum Chung\
-Thesis: *"Performance Control of InSnZnO/InGaZnO Multi-Channel-Layered Transistors with Defect Analysis of Amorphous Oxide Semiconductors"*
+<p class="edu-entry">
+<span class="edu-degree">M.S. in Solid-state Physics</span> — <span class="edu-school">Dongguk University</span>, Seoul<br>
+<span class="edu-detail">GPA 4.5 / 4.5 · Sep 2022 – Feb 2024</span><br>
+<span class="edu-lab">Advanced Physics on Electromaterial Laboratory</span><br>
+<span class="edu-advisor">Advisor: Prof. Kwun-Bum Chung</span><br>
+<span class="edu-thesis">Thesis: "Performance Control of InSnZnO/InGaZnO Multi-Channel-Layered Transistors with Defect Analysis of Amorphous Oxide Semiconductors"</span>
+</p>
 
-**B.S. in Physics** — Dongguk University, Seoul\
-GPA 4.2 / 4.5 · Mar 2016 – Aug 2022\
-Undergraduate researcher, APEL · Jul 2021 – Aug 2022\
+<p class="edu-entry">
+<span class="edu-degree">B.S. in Physics</span> — <span class="edu-school">Dongguk University</span>, Seoul<br>
+<span class="edu-detail">GPA 4.2 / 4.5 · Mar 2016 – Aug 2022</span><br>
+<span class="edu-detail">Undergraduate researcher, APEL · Jul 2021 – Aug 2022</span>
+</p>
 :::
 
 ::: {.section-block}
@@ -30,7 +36,7 @@ Basic Science Research Program, National Research Foundation of Korea (NRF)\
 Funded by the Ministry of Education · Sep 2025 – Aug 2027 · 50M KRW
 :::
 
-::: {.section-block}
+::: {.section-block .skills-table}
 ## Skills
 
 | Category | Details |

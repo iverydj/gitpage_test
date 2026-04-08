@@ -507,6 +507,22 @@ tbody tr:hover { background: var(--bg-hover); }
   line-height: 1.8;
 }
 
+/* ── Career: Education colors ── */
+.edu-entry { margin-bottom: 1.4rem; }
+.edu-entry:last-child { margin-bottom: 0; }
+
+.edu-degree { color: var(--yellow); font-weight: 600; }
+.edu-school { color: var(--cyan); font-weight: 500; }
+.edu-detail { color: var(--text-2); }
+.edu-lab { color: var(--purple); font-style: italic; }
+.edu-advisor { color: var(--orange); }
+.edu-thesis { color: var(--text-2); font-style: italic; font-size: 13px; }
+
+/* ── Skills table: narrow left column ── */
+.skills-table table { table-layout: fixed; }
+.skills-table th:first-child,
+.skills-table td:first-child { width: 150px; }
+
 /* ── Responsive ── */
 @media (max-width: 680px) {
   .hero { margin-top: 1.5rem; padding: 1rem; }
