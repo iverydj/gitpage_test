@@ -18,7 +18,7 @@ website:
       - href: publications.qmd
         text: Publications
   page-footer:
-    left: "Dong-Joon Yi"
+    left: "© 2026 Dong-Joon Yi · Hanyang University"
 
 format:
   html:

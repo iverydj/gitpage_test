@@ -540,8 +540,12 @@ tbody tr:hover { background: var(--bg-hover); }
 
 /* ── Responsive ── */
 @media (max-width: 680px) {
-  .hero { margin-top: 1.5rem; padding: 1rem; }
+  .hero { margin-top: 1.5rem; padding: 1rem 1.2rem; }
   .hero-name { font-size: 1.6rem; }
-  .hero-meta { gap: 0.3rem 0.8rem; }
+  .hero-contact { font-size: 12px; word-break: break-all; }
   .section-block, .home-section { padding: 1rem; }
+  .research-keywords span { font-size: 11px; }
+  .pub-styled li { padding-left: 1.5rem; }
+  .pub-styled li::before { width: 1rem; }
+  .skills-tbl col:first-child { width: auto !important; }
 }
