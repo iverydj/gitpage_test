@@ -1,4 +1,4 @@
-<p class="pub-note">† First author, ‡ Co-first author, * Corresponding author</p>
+<p class="pub-note">† First, ‡ Co-first, * Corresponding</p>
 
 <ul class="pub-styled">
 

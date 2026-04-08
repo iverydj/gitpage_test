@@ -32,18 +32,6 @@ Funded by the Ministry of Education · Sep 2025 – Aug 2027 · 50M KRW
 :::
 
 ::: {.section-block}
-## Scholarships & Awards
-
-| Award | Affiliation | Year |
-|:------|:------------|-----:|
-| HY-BrainKorea G3 2nd Award | Hanyang University | 2025 |
-| IC-PBL Graduate Championship 3rd Award | Hanyang University | 2024 |
-| Dongguk Future Talent Scholarship | Dongguk University | 2022, 2023 |
-| Physics Department Alumni Scholarship | Dongguk University | 2022, 2023 |
-| Dongguk 1.1.1 Scholarship | Dongguk University | 2021 |
-:::
-
-::: {.section-block}
 ## Skills
 
 | Category | Details |
