@@ -1,9 +1,10 @@
 ---
-title: "last update : 08 April 2026"
+title: ""
 toc: false
 ---
 
 ::: {.hero}
+<p class="last-update">Last update : 08 April 2026</p>
 <p class="hero-name">Dong-Joon Yi</p>
 <p class="hero-position">Ph.D. student,</p>
 <p class="hero-dept">Department of Electronic Engineering, Hanyang University</p>
