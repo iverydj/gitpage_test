@@ -36,13 +36,19 @@ Basic Science Research Program, National Research Foundation of Korea (NRF)\
 Funded by the Ministry of Education · Sep 2025 – Aug 2027 · 50M KRW
 :::
 
-::: {.section-block .skills-table}
+::: {.section-block}
 ## Skills
 
-| Category | Details |
-|:---------|:--------|
-| **Spectroscopy** | Raman, Photoluminescence, Ellipsometry, DLTS, Tip-enhanced nanospectroscopy |
-| **Machine Learning** | Physics-based data analysis, Deep learning for experimental data, Explainable AI (XAI) |
-| **Simulation** | FDTD simulations, Inverse design with adjoint optimization |
-| **Others** | Electrical characterization (I-V, etc), XPS, Photolithography, Sputtering |
+<table class="skills-tbl">
+<colgroup>
+<col style="width: 140px">
+<col>
+</colgroup>
+<tbody>
+<tr><td><strong>Spectroscopy</strong></td><td>Raman, Photoluminescence, Ellipsometry, DLTS, Tip-enhanced nanospectroscopy</td></tr>
+<tr><td><strong>Machine Learning</strong></td><td>Physics-based data analysis, Deep learning for experimental data, Explainable AI (XAI)</td></tr>
+<tr><td><strong>Simulation</strong></td><td>FDTD simulations, Inverse design with adjoint optimization</td></tr>
+<tr><td><strong>Others</strong></td><td>Electrical characterization (I-V, etc), XPS, Photolithography, Sputtering</td></tr>
+</tbody>
+</table>
 :::

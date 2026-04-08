@@ -518,10 +518,11 @@ tbody tr:hover { background: var(--bg-hover); }
 .edu-advisor { color: var(--orange); }
 .edu-thesis { color: var(--text-2); font-style: italic; font-size: 13px; }
 
-/* ── Skills table: narrow left column ── */
-.skills-table table { table-layout: fixed !important; width: 100% !important; }
-.skills-table th:first-child,
-.skills-table td:first-child { width: 140px !important; min-width: 140px !important; max-width: 140px !important; }
+/* ── Skills table ── */
+.skills-tbl { width: 100%; border-collapse: collapse; table-layout: fixed; }
+.skills-tbl td { padding: 0.5rem 0.75rem; border-bottom: 1px solid var(--border-light); font-size: 13.5px; vertical-align: top; }
+.skills-tbl tr:last-child td { border-bottom: none; }
+.skills-tbl tr:hover { background: var(--bg-hover); }
 
 /* ── Responsive ── */
 @media (max-width: 680px) {
