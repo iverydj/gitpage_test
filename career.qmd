@@ -40,7 +40,7 @@ Funded by the Ministry of Education · Sep 2025 – Aug 2027 · 50M KRW
 <h2 class="section-title">Skills</h2>
 <table class="skills-tbl">
 <colgroup>
-<col style="width: 140px">
+<col style="width: 230px">
 <col>
 </colgroup>
 <tbody>
