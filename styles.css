@@ -519,9 +519,9 @@ tbody tr:hover { background: var(--bg-hover); }
 .edu-thesis { color: var(--text-2); font-style: italic; font-size: 13px; }
 
 /* ── Skills table: narrow left column ── */
-.skills-table table { table-layout: fixed; }
+.skills-table table { table-layout: fixed !important; width: 100% !important; }
 .skills-table th:first-child,
-.skills-table td:first-child { width: 150px; }
+.skills-table td:first-child { width: 140px !important; min-width: 140px !important; max-width: 140px !important; }
 
 /* ── Responsive ── */
 @media (max-width: 680px) {
