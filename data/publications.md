@@ -1,6 +1,6 @@
 <p class="pub-note">† First author, * Corresponding author</p>
 
-<ul class="pub-styled">
+<ol class="pub-styled" reversed>
 
 <li>
 <span class="pub-authors">T. G. Weldemhret†, <u><b>D.-J. Yi†</b></u>, K. Jeong, K.-B. Chung&#42;</span>
@@ -66,11 +66,11 @@
 <span class="pub-doi"><a href="https://doi.org/10.1038/s41598-023-40162-0">DOI:10.1038/s41598-023-40162-0</a></span>
 </li>
 
-</ul>
+</ol>
 
 <p class="pub-patent-header">[Patents]</p>
 
-<ul class="pub-styled pub-patents">
+<ol class="pub-styled pub-patents" reversed>
 
 <li>
 <span class="pub-authors">K.-B. Chung, K. Jeong, <u><b>D.-J. Yi</b></u>, (Dongguk University Industry Academy Cooperation Foundation)</span>
@@ -79,15 +79,15 @@
 </li>
 
 <li>
-<span class="pub-authors">K.-B. Chung, K. Jeong, <u><b>D.-J. Yi</b></u>, H. Hong, (Dongguk University Industry Academy Cooperation Foundation)</span>
-<span class="pub-title">"Method of Confirming Performance of Secondary Battery and Apparatus of Performing the Same"</span>
-<span class="pub-journal">Patent, Republic of Korea</span>, 10-2023-0161220
-</li>
-
-<li>
 <span class="pub-authors">K.-B. Chung, K. Jeong, <u><b>D.-J. Yi</b></u>, (Dongguk University Industry Academy Cooperation Foundation)</span>
 <span class="pub-title">"Analysis Method of Semiconductor Device and Analysis Apparatus for the Method"</span>
 <span class="pub-journal">Patent, Republic of Korea</span>, 10-2024-0049532
 </li>
 
-</ul>
+<li>
+<span class="pub-authors">K.-B. Chung, K. Jeong, <u><b>D.-J. Yi</b></u>, H. Hong, (Dongguk University Industry Academy Cooperation Foundation)</span>
+<span class="pub-title">"Method of Confirming Performance of Secondary Battery and Apparatus of Performing the Same"</span>
+<span class="pub-journal">Patent, Republic of Korea</span>, 10-2023-0161220
+</li>
+
+</ol>
