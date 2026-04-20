@@ -1,6 +1,6 @@
 <p class="pub-note">† First author, * Corresponding author</p>
 
-<ol class="pub-styled" reversed>
+<ul class="pub-styled">
 
 <li>
 <span class="pub-authors">T. G. Weldemhret†, <u><b>D.-J. Yi†</b></u>, K. Jeong, K.-B. Chung&#42;</span>
@@ -74,11 +74,11 @@
 <span class="pub-pdf"><a href="assets/pubs/1.pdf" target="_blank">[PDF]</a></span>
 </li>
 
-</ol>
+</ul>
 
 <p class="pub-patent-header">[Patents]</p>
 
-<ol class="pub-styled pub-patents" reversed>
+<ul class="pub-styled pub-patents">
 
 <li>
 <span class="pub-authors">K.-B. Chung, K. Jeong, <u><b>D.-J. Yi</b></u>, (Dongguk University Industry Academy Cooperation Foundation)</span>
@@ -98,4 +98,4 @@
 <span class="pub-journal">Patent, Republic of Korea</span>, 10-2023-0161220
 </li>
 
-</ol>
+</ul>
