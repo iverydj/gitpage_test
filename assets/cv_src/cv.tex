@@ -1,0 +1,348 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Curriculum Vitae - Dong-Joon Yi
+% Built with Awesome-CV (https://github.com/posquit0/Awesome-CV)
+% Build: ./build.sh   (or: xelatex cv.tex; xelatex cv.tex)
+
+\documentclass[11pt, a4paper]{awesome-cv}
+
+\geometry{left=1.5cm, top=1.0cm, right=1.5cm, bottom=1.6cm, footskip=.6cm}
+
+% Allow long URLs/DOIs to break across lines, in the surrounding body font.
+\usepackage{xurl}
+\urlstyle{same}
+
+% Underline that allows line breaks AND preserves adjacent spacing
+% (standard \underline collapses surrounding elastic space in justified text).
+% [normalem] keeps \emph as italics rather than underline.
+\usepackage[normalem]{ulem}
+
+% Reserve vertical space before a section so the heading isn't orphaned
+% (used before Research Fellowship to keep heading + body on the same page).
+\usepackage{needspace}
+
+% Accent color (alternatives: awesome-emerald, awesome-skyblue, awesome-red,
+% awesome-pink, awesome-orange, awesome-nephritis, awesome-concrete, awesome-darknight).
+\colorlet{awesome}{awesome-skyblue}
+
+\setbool{acvSectionColorHighlight}{true}
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+%-------------------------------------------------------------------------------
+%	STYLE OVERRIDES
+%-------------------------------------------------------------------------------
+% Source Sans 3's small-caps OpenType feature drops the dot on lowercase 'i',
+% making "in" render as "iN" with a dotless i. Disable scshape everywhere it shows up.
+% Also tighten the header name and bump small text for legibility.
+
+\renewcommand*{\headerfirstnamestyle}[1]{{\fontsize{26pt}{1em}\headerfontlight\color{graytext} #1}}
+\renewcommand*{\headerlastnamestyle}[1]{{\fontsize{26pt}{1em}\headerfont\bfseries\color{text} #1}}
+\renewcommand*{\headerpositionstyle}[1]{{\fontsize{9pt}{1em}\bodyfont\itshape\color{awesome} #1}}
+
+\renewcommand*{\entrypositionstyle}[1]{{\fontsize{9pt}{1em}\bodyfont\itshape\color{graytext} #1}}
+\renewcommand*{\subentrypositionstyle}[1]{{\fontsize{8pt}{1em}\bodyfont\itshape\color{graytext} #1}}
+
+% Subsection: bold awesome-color instead of small-caps.
+\renewcommand*{\subsectionstyle}[1]{{\fontsize{11pt}{1em}\bodyfont\bfseries\color{awesome} #1}}
+
+% Footer: drop scshape.
+\renewcommand*{\footerstyle}[1]{{\fontsize{8pt}{1em}\footerfont\color{lighttext} #1}}
+
+% Widen the cvhonor date column (default 1.5cm clips "2022, 2023").
+\renewenvironment{cvhonors}{%
+  \vspace{\acvSectionContentTopSkip}
+  \vspace{-2mm}
+  \begin{center}
+    \setlength\tabcolsep{0pt}
+    \setlength{\extrarowheight}{0pt}
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{2cm} L{\textwidth - 5cm} R{2.5cm}}
+}{%
+    \end{tabular*}
+  \end{center}
+}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%-------------------------------------------------------------------------------
+\name{Dong-Joon}{Yi}
+\position{Ph.D. Candidate, Department of Electronic Engineering, Hanyang University}
+\address{Semiconductor Nanophotonics Laboratory \, |\, Advisor: Prof. Mun Seok Jeong}
+
+\email{iver.ydj@gmail.com}
+\homepage{iverydj.github.io}
+\googlescholar{MZE2mWsAAAAJ}{}
+\extrainfo{iverydj@hanyang.ac.kr}
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+\makecvheader
+
+\makecvfooter
+  {\today}
+  {Dong-Joon Yi \, ·\, Curriculum Vitae}
+  {\thepage}
+
+%-------------------------------------------------------------------------------
+%	EDUCATION & CAREERS
+%-------------------------------------------------------------------------------
+\cvsection{Education \& Careers}
+
+\begin{cventries}
+
+  \cventry
+    {Ph.D. candidate in Electronic Engineering \, (GPA 4.3 / 4.5)}
+    {Hanyang University}
+    {Seoul, Republic of Korea}
+    {Mar. 2024 -- Aug. 2027 (est.)}
+    {
+      \begin{cvitems}
+        \item {Semiconductor Nanophotonics Laboratory}
+        \item {Advisor: Prof. Mun Seok Jeong}
+      \end{cvitems}
+    }
+
+  \cventry
+    {M.S. in Solid-state Physics \, (GPA 4.5 / 4.5)}
+    {Dongguk University}
+    {Seoul, Republic of Korea}
+    {Sep. 2022 -- Feb. 2024}
+    {
+      \begin{cvitems}
+        \item {Advanced Physics on Electromaterial Laboratory}
+        \item {Advisor: Prof. Kwun-Bum Chung}
+        \item {Thesis: ``Performance Control of InSnZnO/InGaZnO Multi-Channel-Layered Transistors with Defect Analysis of Amorphous Oxide Semiconductors''}
+      \end{cvitems}
+    }
+
+  \cventry
+    {B.S. in Physics \, (GPA 4.2 / 4.5)}
+    {Dongguk University}
+    {Seoul, Republic of Korea}
+    {Mar. 2016 -- Aug. 2022}
+    {
+      \begin{cvitems}
+        \item {Military Service in the Republic of Korea (Jun. 2019 -- Apr. 2021)}
+        \item {Undergraduate researcher in Advanced Physics on Electromaterial Laboratory (Jul. 2021 -- Aug. 2022)}
+      \end{cvitems}
+    }
+
+\end{cventries}
+
+%-------------------------------------------------------------------------------
+%	SCHOLARSHIPS & AWARDS
+%-------------------------------------------------------------------------------
+% cvhonor signature: {bold-prominent}{gray-secondary}{location}{date}
+% When 2nd arg is empty, no comma is inserted between fields 1 and 2.
+\cvsection{Scholarships \& Awards}
+
+\begin{cvhonors}
+  \cvhonor{Physics Department Alumni Scholarship}{}{Dongguk University}{2022, 2023}
+  \cvhonor{Dongguk 1.1.1 Scholarship}{}{Dongguk University}{2021}
+  \cvhonor{Dongguk Future Talent Scholarship}{}{Dongguk University}{2022, 2023}
+  \cvhonor{IC-PBL Graduate Championship}{3rd Place}{Hanyang University}{2024}
+  \cvhonor{HY-BrainKorea G3 Award}{2nd Place}{Hanyang University}{2025}
+\end{cvhonors}
+
+%-------------------------------------------------------------------------------
+%	SKILLS
+%-------------------------------------------------------------------------------
+\cvsection{Skills}
+
+\begin{cvskills}
+  \cvskill
+    {Spectroscopy}
+    {Optical spectroscopy (Raman, Photoluminescence), Ellipsometry, Deep-Level Transient Spectroscopy (DLTS), Tip-Enhanced Nanospectroscopy}
+  \cvskill
+    {Machine Learning}
+    {Physics-based data analysis, Deep learning for experimental data, Explainable Artificial Intelligence (XAI)}
+  \cvskill
+    {Simulation}
+    {Finite-Difference Time-Domain (FDTD) simulations, Inverse design with adjoint optimization}
+  \cvskill
+    {Others}
+    {Electrical characterization (I--V, etc.), X-ray Photoelectron Spectroscopy (XPS), Photolithography, Sputtering}
+\end{cvskills}
+
+%-------------------------------------------------------------------------------
+%	RESEARCH
+%-------------------------------------------------------------------------------
+\cvsection{Research}
+
+\begin{cvparagraph}
+My research focuses on quantitative defect spectroscopy and experimental data analysis for two-dimensional (2D) materials and oxide semiconductors. I aim to extract physically meaningful parameters from electrical and optical measurements and relate them directly to material properties and device behavior, with an emphasis on interpretability and reproducibility.
+\end{cvparagraph}
+
+\cvsubsection{1.~~Defect \& Optical Spectroscopy}
+\begin{cvitems}
+  \item {Quantitative analysis of intrinsic and extrinsic defects in 2D materials and oxide semiconductors.}
+  \item {Extraction of defect energy levels, densities, and carrier dynamics using Deep-Level Transient Spectroscopy (DLTS) and Photo-Induced Current Transient Spectroscopy (PICTS).}
+  \item {Raman / Photoluminescence (PL) spectroscopy for probing defect states, doping, strain, and phase transitions.}
+  \item {X-ray Photoelectron Spectroscopy (XPS) and spectroscopic ellipsometry (SE) for chemical composition, bonding states, and optical properties.}
+  \item {Tip-Enhanced Raman Spectroscopy (TERS) for spatially resolved defect and structural inhomogeneity analysis beyond the diffraction limit.}
+\end{cvitems}
+
+\cvsubsection{2.~~Explainable Artificial Intelligence (XAI) for Experimental Data}
+\begin{cvitems}
+  \item {Development of analysis pipelines for spectroscopic and electrical datasets, including preprocessing, feature extraction, modeling, and validation.}
+  \item {XAI to identify physically relevant data features.}
+  \item {Connection of AI-extracted features to defect-related mechanisms and material properties under data-limited experimental conditions.}
+\end{cvitems}
+
+\cvsubsection{3.~~Advanced Electronic \& Photonic Devices}
+\begin{cvitems}
+  \item {Fabrication and characterization of electronic devices based on 2D materials and oxide semiconductors, including logic and neuromorphic devices.}
+  \item {Quantitative analysis of device electrical responses (e.g., I--V characteristics and transient behavior) to identify dominant transport and trapping mechanisms.}
+  \item {Finite-Difference Time-Domain (FDTD) simulations to evaluate optical responses and electric-field distributions in nano- to micro-scale structures, supporting the design and analysis of photonic components.}
+\end{cvitems}
+
+\begin{cvparagraph}
+My work integrates defect-resolved spectroscopy, explainable analysis of experimental data, and device-level characterization to obtain quantitatively grounded insight into solid-state materials. The primary objective is to extract physically meaningful parameters from measurements and connect them directly to material behavior and device performance.
+\end{cvparagraph}
+
+%-------------------------------------------------------------------------------
+%	PUBLICATIONS
+%-------------------------------------------------------------------------------
+\cvsection{Publications}
+
+\begin{cvparagraph}
+\href{https://scholar.google.co.kr/citations?user=MZE2mWsAAAAJ}{Google Scholar} \quad\textbar\quad \textsuperscript{\dag}\,First author \quad *\,Corresponding author
+\end{cvparagraph}
+
+% \me{} marks the CV owner in author lists (bold + underline). Uses ulem's
+% \uline so that elastic spacing around the underlined hbox isn't collapsed.
+% \pub{authors}{title}{venue}{year}{doi} appends one publication entry; the
+% number is reverse-counted from \value{pubnum}. Bump pubnum by 1 when adding
+% a new entry at the top. Same pattern for patents (patnum).
+% \publink{authors}{title}{venue}{year}{full-url}{label} for entries that
+% don't have a DOI (e.g., conference papers on OpenReview, arXiv).
+\providecommand{\me}[1]{\textbf{\uline{#1}}}
+
+\newcounter{pubnum}
+\setcounter{pubnum}{11}  % (publication count) + 1; decrement each \pub
+\providecommand{\pub}[5]{%
+  \addtocounter{pubnum}{-1}%
+  \item[\textbf{\arabic{pubnum}.}] {#1, ``#2,'' \textit{#3}, (#4), \href{https://doi.org/#5}{\nolinkurl{DOI:#5}}}%
+}
+\providecommand{\publink}[6]{%
+  \addtocounter{pubnum}{-1}%
+  \item[\textbf{\arabic{pubnum}.}] {#1, ``#2,'' \textit{#3}, (#4), \href{#5}{#6}}%
+}
+
+\begin{cvitems}
+  \publink
+    {Y.~Cho, J.~Yoo, S.~Yang, \me{D.-J. Yi}, S.~M.~Lee, M.~S.~Jeong, J.~Choo}
+    {Position: Significant impact of numerical precision in scientific machine learning}
+    {International Conference on Machine Learning (ICML), Position Paper Track}
+    {2026}
+    {https://openreview.net/forum?id=CbZbd4iorc}
+    {OpenReview}
+
+  \pub
+    {H.~C.~Suh\textsuperscript{\dag}, T.~Kim\textsuperscript{\dag}, \me{D.-J. Yi}, D.~H.~Kim, S.~H.~Kim, J.~Yoo, S.~Bang, D.~Lee, J.~H.~Kim, Y.~S.~Won, K.~K.~Kim, M.~S.~Jeong*}
+    {Prediction and assessment of nanoprobe for tip-enhanced Raman spectroscopy: Data-driven artificial intelligence approach}
+    {Materials \& Design}
+    {2026}
+    {10.1016/j.matdes.2026.116066}
+
+  \pub
+    {T.~G. Weldemhret\textsuperscript{\dag}, \me{D.-J. Yi}\textsuperscript{\dag}, K.~Jeong, K.-B.~Chung*}
+    {Evaluation of the high mobility and stability of InGaZnO/InSnZnO bilayer thin-film transistors via quantitative defect analysis}
+    {Surfaces and Interfaces}
+    {2025}
+    {10.1016/j.surfin.2025.106870}
+
+  \pub
+    {S.~Bang\textsuperscript{\dag}, C.~Lee\textsuperscript{\dag}, D.~Choi, D.~Y.~Park, D.~H.~Kim, D.~Lee, \me{D.-J. Yi}, J.~Song, S.~J.~Yun, D.-W.~Kim*, M.~S.~Jeong*}
+    {High Performance P-Channel Transistor Based on Amorphous Tellurium Trioxide}
+    {Advanced Materials}
+    {2025}
+    {10.1002/adma.202504948}
+
+  \pub
+    {D.~H.~Kim\textsuperscript{\dag}, J.~Yoo, H.~C.~Suh, Y.~S.~Won, S.~H.~Kim, \me{D.-J. Yi}, B.~G.~Jeong, C.~Lee, D.~Lee, K.~K.~Kim, S.~M.~Lee, E.~K.~Koh, M.~S.~Jeong*}
+    {Anomalous phonon softening with inherent strain in wrinkled monolayer WSe$_2$}
+    {Advanced Materials}
+    {2025}
+    {10.1002/adma.202419414}
+
+  \pub
+    {K.~Jeong\textsuperscript{\dag}, D.~Y.~Shin, J.-M.~Park, \me{D.-J. Yi}, H.~Hong, H.-S.~Kim*, K.-B.~Chung*}
+    {Noncontact Monitoring and Imaging of the Operation and Performance of Thin-Film Field-Effect Transistors}
+    {Advanced Science}
+    {2025}
+    {10.1002/advs.202407923}
+
+  \pub
+    {A.~Song\textsuperscript{\dag}, M.~J.~Kim, \me{D.-J. Yi}, S.~Kwon, D.-W.~Kim, S.~Kim, J.-H.~Bae, S.~Park, Y.~S.~Rim*, K.-S.~Jeong*, K.-B.~Chung*}
+    {Control of sensitivity in metal oxide electrolyte gated field-effect transistor-based glucose sensor by electronegativity modulation}
+    {Scientific Reports}
+    {2024}
+    {10.1038/s41598-024-76885-x}
+
+  \pub
+    {H.~Hong\textsuperscript{\dag}, M.~J.~Kim, \me{D.-J. Yi}, D.~Y.~Shin, Y.-K.~Moon, K.-B.~Chung*}
+    {Quantitative dynamic evolution of unoccupied states in hydrogen diffused InGaZnSnO TFT under positive bias temperature stress}
+    {ACS Applied Electronic Materials}
+    {2024}
+    {10.1021/acsaelm.4c01430}
+
+  \pub
+    {H.~Hong\textsuperscript{\dag}, \me{D.-J. Yi}, Y.-K.~Moon, K.-S.~Son, J.~H.~Lim, K.~Jeong, K.-B.~Chung*}
+    {Double gated a-InGaZnO TFT properties based on quantitative defect analysis and computational modeling}
+    {IEEE Transactions on Electron Devices}
+    {2024}
+    {10.1109/TED.2023.3347503}
+
+  \pub
+    {H.~Hong\textsuperscript{\dag}, M.~J.~Kim, \me{D.-J. Yi}, Y.-K.~Moon, K.-S.~Son, J.~H.~Lim, K.~Jeong*, K.-B.~Chung*}
+    {Quantitative analysis of defect states in InGaZnO within 2 eV below the conduction band via photo-induced current transient spectroscopy}
+    {Scientific Reports}
+    {2023}
+    {10.1038/s41598-023-40162-0}
+\end{cvitems}
+
+%-------------------------------------------------------------------------------
+%	PATENTS
+%-------------------------------------------------------------------------------
+\cvsection{Patents}
+
+\newcounter{patnum}
+\setcounter{patnum}{4}  % (patent count) + 1; decrement each \patentitem
+\providecommand{\patentitem}[1]{%
+  \addtocounter{patnum}{-1}%
+  \item[\textbf{\arabic{patnum}.}] {#1}%
+}
+
+\begin{cvitems}
+  \patentitem
+    {K.-B.~Chung, K.~Jeong, \me{D.-J. Yi}, (Dongguk University Industry Academy Cooperation Foundation). ``Device Array Analysis Method and Analysis Apparatus Therefor.'' \textit{US Patent}, 18771046.}
+  \patentitem
+    {K.-B.~Chung, K.~Jeong, \me{D.-J. Yi}, (Dongguk University Industry Academy Cooperation Foundation). ``Analysis Method of Semiconductor Device and Analysis Apparatus for the Method.'' \textit{Patent, Republic of Korea}, 10-2024-0049532.}
+  \patentitem
+    {K.-B.~Chung, K.~Jeong, \me{D.-J. Yi}, H.~Hong, (Dongguk University Industry Academy Cooperation Foundation). ``Method of Confirming Performance of Secondary Battery and Apparatus of Performing the Same.'' \textit{Patent, Republic of Korea}, 10-2023-0161220.}
+\end{cvitems}
+
+%-------------------------------------------------------------------------------
+%	RESEARCH FELLOWSHIP
+%-------------------------------------------------------------------------------
+% Keep heading + body together on the same page (otherwise the heading orphans
+% at the bottom of the previous page while the entry overflows to a new page).
+\needspace{6\baselineskip}
+\cvsection{Research Fellowship}
+
+\begin{cventries}
+  \cventry
+    {Principal Investigator}
+    {NRF Basic Science Research Program}
+    {50\,M KRW}
+    {Sep. 2025 -- Aug. 2027}
+    {
+      \begin{cvitems}
+        \item {Project: ``Deep-Level Transient Spectroscopy and Nanospectroscopy for Ultrafine Defect Analysis Using Explainable AI in 2D Quantum Semiconductors''}
+        \item {Funded by the Ministry of Education through the National Research Foundation of Korea (NRF).}
+      \end{cvitems}
+    }
+\end{cventries}
+
+\end{document}

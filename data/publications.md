@@ -3,6 +3,23 @@
 <ul class="pub-styled">
 
 <li>
+<span class="pub-authors">Y. Cho, J. Yoo, S. Yang, <u><b>D.-J. Yi</b></u>, S. M. Lee, M. S. Jeong, J. Choo</span>
+<span class="pub-title">"Position: Significant impact of numerical precision in scientific machine learning"</span>
+<span class="pub-journal">International Conference on Machine Learning (ICML), Position Paper Track</span>
+<span class="pub-year">(2026)</span>
+<span class="pub-doi"><a href="https://openreview.net/forum?id=CbZbd4iorc">OpenReview</a></span>
+</li>
+
+<li>
+<span class="pub-authors">H. C. Suh†, T. Kim†, <u><b>D.-J. Yi</b></u>, D. H. Kim, S. H. Kim, J. Yoo, S. Bang, D. Lee, J. H. Kim, Y. S. Won, K. K. Kim, M. S. Jeong&#42;</span>
+<span class="pub-title">"Prediction and assessment of nanoprobe for tip-enhanced Raman spectroscopy: Data-driven artificial intelligence approach"</span>
+<span class="pub-journal">Materials & Design</span>
+<span class="pub-year">(2026)</span>
+<span class="pub-doi"><a href="https://doi.org/10.1016/j.matdes.2026.116066">DOI:10.1016/j.matdes.2026.116066</a></span>
+<span class="pub-pdf"><a href="assets/pubs/9.pdf" target="_blank">[PDF]</a></span>
+</li>
+
+<li>
 <span class="pub-authors">T. G. Weldemhret†, <u><b>D.-J. Yi†</b></u>, K. Jeong, K.-B. Chung&#42;</span>
 <span class="pub-title">"Evaluation of the high mobility and stability of InGaZnO/InSnZnO bilayer thin-film transistors via quantitative defect analysis"</span>
 <span class="pub-journal">Surfaces and Interfaces</span>
