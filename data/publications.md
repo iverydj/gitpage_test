@@ -7,7 +7,6 @@
 <span class="pub-title">"Position: Significant impact of numerical precision in scientific machine learning"</span>
 <span class="pub-journal">International Conference on Machine Learning (ICML), Position Paper Track</span>
 <span class="pub-year">(2026)</span>
-<span class="pub-doi"><a href="https://openreview.net/forum?id=CbZbd4iorc">OpenReview</a></span>
 </li>
 
 <li>
