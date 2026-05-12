@@ -48,14 +48,15 @@
 % Footer: drop scshape.
 \renewcommand*{\footerstyle}[1]{{\fontsize{8pt}{1em}\footerfont\color{lighttext} #1}}
 
-% Widen the cvhonor date column (default 1.5cm clips "2022, 2023").
+% Widen the cvhonor date column (default 1.5cm clips "2022, 2023") and the
+% right-hand location column (2.5cm wraps long names like "Korean Physical Society").
 \renewenvironment{cvhonors}{%
   \vspace{\acvSectionContentTopSkip}
   \vspace{-2mm}
   \begin{center}
     \setlength\tabcolsep{0pt}
     \setlength{\extrarowheight}{0pt}
-    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{2cm} L{\textwidth - 5cm} R{2.5cm}}
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{2cm} L{\textwidth - 5.9cm} R{3.4cm}}
 }{%
     \end{tabular*}
   \end{center}

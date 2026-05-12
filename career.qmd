@@ -29,15 +29,6 @@ toc: true
 :::
 
 ::: {.section-block}
-## Honors & Awards
-
-<p class="edu-entry">
-<span class="edu-degree">Outstanding Presentation Award</span> — <span class="edu-school">Korean Physical Society (KPS)</span><br>
-<span class="edu-detail">Oral Session · 2026 KPS Spring Meeting</span>
-</p>
-:::
-
-::: {.section-block}
 ## Research Fellowship
 
 **"Deep-Level Transient Spectroscopy and Nanospectroscopy for Ultrafine Defect Analysis Using Explainable AI in 2D Quantum Semiconductors"**\
