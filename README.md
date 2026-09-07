@@ -15,7 +15,7 @@ GitHub Pages serves the `main` branch's `/docs` directory.
 - `data/research_section_en.md`: Earlier research text; not included in the current site
 - `data/publications.md`: Publication list source included by `publications.qmd`
 - `data/research_total.png`, `data/research_part1.png`, `data/research_part2.png`, `data/research_part3.png`: Research figures not currently displayed
-- `assets/CV_DongJoonYi.pdf`: Three-page CV linked from the Career page
+- `assets/CV_DongJoonYi.pdf`: Unfinished CV draft; not linked from the website
 - `assets/cv_src/`: LaTeX source and build script for the CV
 - `docs/`: Generated HTML, search index, styles, and linked resources
 
@@ -38,7 +38,7 @@ quarto render
 ```
 
 - Output is generated in `docs/`.
-- Rendering also refreshes `docs/search.json` and copies linked resources, including the CV PDF.
+- Rendering also refreshes `docs/search.json` and copies linked resources.
 - Do not edit `docs/` manually; re-render from source files.
 
 ## Updating Content
@@ -46,8 +46,8 @@ quarto render
 - Edit the corresponding `.qmd` file for Home, Research, or Career.
 - Edit `data/publications.md` for publications. The main `<ol reversed>` numbers papers automatically; cover features are listed separately.
 - Update the `Last updated` text in `index.qmd` when publishing content changes.
-- The CV is a separate document: website edits do not update its PDF. Its current PDF does not yet include the Small 2026 paper added to the website.
-- To update the CV, edit `assets/cv_src/cv.tex` and run `bash assets/cv_src/build.sh` in an environment with XeLaTeX and the fonts listed in that script. Then render the website to copy the updated PDF into `docs/`.
+- The CV is an unfinished, separate document: website edits do not update its PDF. Keep its download link off the website until it is ready.
+- To update the CV, edit `assets/cv_src/cv.tex` and run `bash assets/cv_src/build.sh` in an environment with XeLaTeX and the fonts listed in that script. Once the CV is ready for publication, add its link and render the website to copy the PDF into `docs/`.
 
 ## Publish to GitHub Pages (Manual Flow)
 

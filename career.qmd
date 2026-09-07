@@ -3,8 +3,6 @@ title: "Career"
 toc: true
 ---
 
-<p><a class="cv-download" href="assets/CV_DongJoonYi.pdf" download>Download CV (PDF, 3 pages)</a></p>
-
 ::: {.section-block .career-edu}
 ## Background
 

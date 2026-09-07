@@ -218,17 +218,6 @@ main a:hover {
 .contact-row:last-child { margin-bottom: 0; }
 .contact-row dd { margin: 0; overflow-wrap: anywhere; }
 
-.cv-download {
-  display: inline-block;
-  padding: 0.55rem 0.9rem;
-  border: 1px solid var(--cyan);
-  border-radius: 4px;
-  color: var(--cyan);
-  font-weight: 600;
-}
-.cv-download:hover { background: var(--bg-hover); color: var(--text); }
-.cv-download:focus-visible { outline: 2px solid var(--cyan); outline-offset: 3px; }
-
 /* legacy - unused */
 .hero-tagline { display: none; }
 .hero-meta { display: none; }
