@@ -8,7 +8,7 @@
 <span class="pub-journal">Small</span>, e74713
 <span class="pub-year">(2026)</span>
 <span class="pub-doi"><a href="https://doi.org/10.1002/smll.74713">DOI:10.1002/smll.74713</a></span>
-<span class="pub-pdf"><a href="assets/pubs/10.pdf" target="_blank">[PDF]</a></span>
+<span class="pub-pdf"><a href="assets/pubs/11.pdf" target="_blank">[PDF]</a></span>
 </li>
 
 <li>
@@ -16,7 +16,7 @@
 <span class="pub-title">"Position: Significant impact of numerical precision in scientific machine learning"</span>
 <span class="pub-journal">International Conference on Machine Learning (ICML), Position Paper Track</span>
 <span class="pub-year">(2026)</span>
-<span class="pub-pdf"><a href="assets/pubs/11.pdf" target="_blank">[PDF]</a></span>
+<span class="pub-pdf"><a href="assets/pubs/10.pdf" target="_blank">[PDF]</a></span>
 </li>
 
 <li>
