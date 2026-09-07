@@ -3,7 +3,7 @@
 # asserts this. Author markers: † first author, * corresponding author.
 # "D.-J. Yi" is highlighted automatically.
 papers:
-  - authors: "S. Bang†, D. Choi, H. C. Suh, C. Lee, S. Lim, Y. J. Yu, D. H. Kim, S. H. Kim, J. Yoo, T. Kim, D. Lee, H. J. Park, U. J. Kim, D.-J. Yi, H. Oh*, D.-W. Kim*, M. S. Jeong*"
+  - authors: "S. Bang†, D. Choi†, H. C. Suh†, C. Lee, S. Lim, Y. J. Yu, D. H. Kim, S. H. Kim, J. Yoo, T. Kim, D. Lee, H. J. Park, U. J. Kim, D.-J. Yi, H. Oh*, D.-W. Kim*, M. S. Jeong*"
     title: Ultrawide Charge-Trap Memory Window and Photoinduced Synaptic Behavior in p-Channel Amorphous Oxide Semiconductors
     venue: Small
     detail: e74713
