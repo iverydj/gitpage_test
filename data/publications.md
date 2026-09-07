@@ -3,19 +3,20 @@
 <ol class="pub-styled" reversed>
 
 <li>
-<span class="pub-authors">Y. Cho, J. Yoo, S. Yang, <u><b>D.-J. Yi</b></u>, S. M. Lee, M. S. Jeong, J. Choo</span>
-<span class="pub-title">"Position: Significant impact of numerical precision in scientific machine learning"</span>
-<span class="pub-journal">International Conference on Machine Learning (ICML), Position Paper Track</span>
-<span class="pub-year">(2026)</span>
-</li>
-
-<li>
 <span class="pub-authors">S. Bang†, D. Choi, H. C. Suh, C. Lee, S. Lim, Y. J. Yu, D. H. Kim, S. H. Kim, J. Yoo, T. Kim, D. Lee, H. J. Park, U. J. Kim, <u><b>D.-J. Yi</b></u>, H. Oh&#42;, D.-W. Kim&#42;, M. S. Jeong&#42;</span>
 <span class="pub-title">"Ultrawide Charge-Trap Memory Window and Photoinduced Synaptic Behavior in p-Channel Amorphous Oxide Semiconductors"</span>
 <span class="pub-journal">Small</span>, e74713
 <span class="pub-year">(2026)</span>
 <span class="pub-doi"><a href="https://doi.org/10.1002/smll.74713">DOI:10.1002/smll.74713</a></span>
 <span class="pub-pdf"><a href="assets/pubs/10.pdf" target="_blank">[PDF]</a></span>
+</li>
+
+<li>
+<span class="pub-authors">Y. Cho†, J. Yoo†, S. Yang, <u><b>D.-J. Yi</b></u>, S. M. Lee, M. S. Jeong&#42;, J. Choo&#42;</span>
+<span class="pub-title">"Position: Significant impact of numerical precision in scientific machine learning"</span>
+<span class="pub-journal">International Conference on Machine Learning (ICML), Position Paper Track</span>
+<span class="pub-year">(2026)</span>
+<span class="pub-pdf"><a href="assets/pubs/11.pdf" target="_blank">[PDF]</a></span>
 </li>
 
 <li>
