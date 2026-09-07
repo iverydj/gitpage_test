@@ -8,7 +8,7 @@ GitHub Pages serves the `main` branch's `/docs` directory.
 
 - `_quarto.yml`: Site configuration (navigation, format, output directory)
 - `styles.css`: Global visual system and responsive layout styles
-- `index.qmd`: Home page
+- `index.qmd`: Home page (hero/contact block generated from `data/cv/profile.yml`; research keywords live here)
 - `research.qmd`: Research page
 - `career.qmd`: Career page
 - `publications.qmd`: Publications page
@@ -16,9 +16,7 @@ GitHub Pages serves the `main` branch's `/docs` directory.
 - `data/cv/*.yml`: **The single source of CV content** (profile, education, awards, skills, grants, research, publications/covers/patents)
 - `scripts/build_cv.py` + `scripts/templates/`: Generates the page fragments in `data/_gen/` from `data/cv/*.yml`
 - `data/_gen/`: Generated fragments included by the `.qmd` pages (committed so `quarto render` works without Python; never edit by hand)
-- `data/research_section_en.md`: Earlier research text; not included in the current site
 - `data/research_total.png`, `data/research_part1.png`, `data/research_part2.png`, `data/research_part3.png`: Research figures not currently displayed
-- `assets/CV_DongJoonYi.pdf`, `assets/cv_src/`: Legacy LaTeX CV (awesome-cv, XeLaTeX); superseded by `cv.qmd` and no longer linked
 - `docs/`: Generated HTML, search index, styles, and linked resources
 
 ## Local Preview
@@ -51,8 +49,9 @@ quarto render
   `assets/pubs/<N>.pdf`, where N is the new total count. Numbering is automatic (`<ol reversed>`); the build script
   aborts if a `pdf:` path does not match the paper's position.
 - Scholarships/awards and military service (`awards.yml`, `cv_notes`) appear only on the CV page, by design.
-- Update `updated:` in `data/cv/profile.yml` and the `Last updated` text in `index.qmd` when publishing content changes.
-- Home page text (hero, keywords) still lives directly in `index.qmd`.
+- Update `updated:` in `data/cv/profile.yml` when publishing content changes (it feeds both the Home page and the CV page).
+- Every fact appears in exactly one source file. Do not copy CV data into `.qmd` files; `data/_gen/` and `docs/` are build outputs, not sources.
+- The former LaTeX CV (`assets/cv_src`, removed 2026-09-07) is recoverable from git history if its design is ever needed again.
 
 ## Publish to GitHub Pages (Manual Flow)
 

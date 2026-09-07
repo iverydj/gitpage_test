@@ -1,0 +1,29 @@
+```{=html}
+<p class="last-update">Last updated: {{ profile.updated }}</p>
+<p class="hero-name">{{ profile.name_first }} {{ profile.name_last }}</p>
+<p class="hero-position">{{ profile.position }}</p>
+<p class="hero-dept">{{ profile.department }}, {{ profile.school }}</p>
+
+<div class="hero-divider"></div>
+
+<p class="hero-lab">{{ profile.lab }}</p>
+<p class="hero-lab-dept">{{ profile.lab_department }}, Republic of Korea</p>
+<p class="hero-advisor">(Advisor: {{ profile.advisor }})</p>
+
+<div class="hero-divider"></div>
+
+<dl class="hero-contact">
+  <div class="contact-row">
+    <dt class="contact-label">Email</dt>
+    <dd>{% for m in profile.emails %}<a href="mailto:{{ m }}">{{ m }}</a>{% if not loop.last %} / {% endif %}{% endfor %}</dd>
+  </div>
+  <div class="contact-row">
+    <dt class="contact-label">Mobile</dt>
+    <dd><a href="tel:{{ profile.phone | replace(' ', '') }}">{{ profile.phone }}</a></dd>
+  </div>
+  <div class="contact-row">
+    <dt class="contact-label">Google Scholar</dt>
+    <dd><a href="{{ profile.scholar }}">View profile</a></dd>
+  </div>
+</dl>
+```

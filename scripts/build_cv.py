@@ -24,6 +24,7 @@ class AppConfig:
     PDF_DIR = "assets/pubs"
     # template file -> generated fragment (included by the .qmd pages)
     OUTPUTS = {
+        "index_hero.html.j2": "index_hero.html",
         "career_education.html.j2": "career_education.html",
         "career_grants.html.j2": "career_grants.html",
         "career_skills.html.j2": "career_skills.html",
