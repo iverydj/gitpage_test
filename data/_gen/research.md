@@ -1,0 +1,20 @@
+My research examines how defects and local structural variations influence the optical and electrical behavior of <span class="rs-mat">two-dimensional (2D) materials</span> and <span class="rs-mat">oxide semiconductors</span>. I combine spectroscopy, device characterization, and interpretable data analysis to connect measured signals with defect properties and device performance.
+
+### 1. Defect and Optical Spectroscopy
+
+- Quantify defect energy levels, densities, and carrier dynamics using <span class="rs-tech">deep-level transient spectroscopy (DLTS)</span> and <span class="rs-tech">photo-induced current transient spectroscopy (PICTS)</span>.
+- Probe local variations in defects, doping, strain, and phase using <span class="rs-tech">Raman</span> and <span class="rs-tech">photoluminescence (PL)</span> spectroscopy, complemented by <span class="rs-tech">tip-enhanced Raman spectroscopy (TERS)</span> for spatial resolution beyond the diffraction limit.
+- Characterize chemical composition, bonding states, and optical properties using <span class="rs-tech">X-ray photoelectron spectroscopy (XPS)</span> and <span class="rs-tech">spectroscopic ellipsometry (SE)</span>.
+
+### 2. Interpretable Analysis of Experimental Data
+
+- Develop analysis pipelines for spectroscopic and electrical measurements, from data preprocessing to predictive modeling and validation.
+- Use <span class="rs-method">explainable artificial intelligence (XAI)</span> to interpret model predictions and identify the measured features that influence them.
+- Compare model-derived features with experimental observations to evaluate their possible connections to defect properties and device behavior, with particular attention to limited experimental data.
+
+### 3. Electronic Devices and Photonic Modeling
+
+- Fabricate and characterize devices based on <span class="rs-mat">2D materials</span> and <span class="rs-mat">oxide semiconductors</span>, including logic and neuromorphic devices.
+- Analyze current–voltage characteristics and transient responses to investigate charge transport and trapping mechanisms.
+- Use <span class="rs-tech">finite-difference time-domain (FDTD)</span> simulations to study optical responses and electric-field distributions in nanoscale and microscale structures, supporting the design and analysis of photonic components.
+

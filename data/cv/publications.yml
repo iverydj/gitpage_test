@@ -1,0 +1,104 @@
+# Newest first. Numbering is automatic (<ol reversed>): the top paper gets the
+# highest number. `pdf` must equal assets/pubs/<number>.pdf; the build script
+# asserts this. Author markers: † first author, * corresponding author.
+# "D.-J. Yi" is highlighted automatically.
+papers:
+  - authors: "S. Bang†, D. Choi, H. C. Suh, C. Lee, S. Lim, Y. J. Yu, D. H. Kim, S. H. Kim, J. Yoo, T. Kim, D. Lee, H. J. Park, U. J. Kim, D.-J. Yi, H. Oh*, D.-W. Kim*, M. S. Jeong*"
+    title: Ultrawide Charge-Trap Memory Window and Photoinduced Synaptic Behavior in p-Channel Amorphous Oxide Semiconductors
+    venue: Small
+    detail: e74713
+    year: 2026
+    doi: 10.1002/smll.74713
+    pdf: assets/pubs/11.pdf
+
+  - authors: "Y. Cho†, J. Yoo†, S. Yang, D.-J. Yi, S. M. Lee, M. S. Jeong*, J. Choo*"
+    title: "Position: Significant impact of numerical precision in scientific machine learning"
+    venue: International Conference on Machine Learning (ICML), Position Paper Track
+    year: 2026
+    pdf: assets/pubs/10.pdf
+
+  - authors: "H. C. Suh†, T. Kim†, D.-J. Yi, D. H. Kim, S. H. Kim, J. Yoo, S. Bang, D. Lee, J. H. Kim, Y. S. Won, K. K. Kim, M. S. Jeong*"
+    title: "Prediction and assessment of nanoprobe for tip-enhanced Raman spectroscopy: Data-driven artificial intelligence approach"
+    venue: Materials & Design
+    year: 2026
+    doi: 10.1016/j.matdes.2026.116066
+    pdf: assets/pubs/9.pdf
+
+  - authors: "T. G. Weldemhret†, D.-J. Yi†, K. Jeong, K.-B. Chung*"
+    title: Evaluation of the high mobility and stability of InGaZnO/InSnZnO bilayer thin-film transistors via quantitative defect analysis
+    venue: Surfaces and Interfaces
+    year: 2025
+    doi: 10.1016/j.surfin.2025.106870
+    pdf: assets/pubs/8.pdf
+
+  - authors: "S. Bang†, C. Lee†, D. Choi, D. Y. Park, D. H. Kim, D. Lee, D.-J. Yi, J. Song, S. J. Yun, D.-W. Kim*, M. S. Jeong*"
+    title: High Performance P-Channel Transistor Based on Amorphous Tellurium Trioxide
+    venue: Advanced Materials
+    year: 2025
+    doi: 10.1002/adma.202504948
+    pdf: assets/pubs/7.pdf
+
+  - authors: "D. H. Kim†, J. Yoo, H. C. Suh, Y. S. Won, S. H. Kim, D.-J. Yi, B. G. Jeong, C. Lee, D. Lee, K. K. Kim, S. M. Lee, E. K. Koh, M. S. Jeong*"
+    title: Anomalous phonon softening with inherent strain in wrinkled monolayer WSe2
+    venue: Advanced Materials
+    year: 2025
+    doi: 10.1002/adma.202419414
+    pdf: assets/pubs/6.pdf
+
+  - authors: "K. Jeong†, D. Y. Shin, J.-M. Park, D.-J. Yi, H. Hong, H.-S. Kim*, K.-B. Chung*"
+    title: Noncontact Monitoring and Imaging of the Operation and Performance of Thin-Film Field-Effect Transistors
+    venue: Advanced Science
+    year: 2025
+    doi: 10.1002/advs.202407923
+    pdf: assets/pubs/5.pdf
+
+  - authors: "A. Song†, M. J. Kim, D.-J. Yi, S. Kwon, D.-W. Kim, S. Kim, J.-H. Bae, S. Park, Y. S. Rim*, K.-S. Jeong*, K.-B. Chung*"
+    title: Control of sensitivity in metal oxide electrolyte gated field-effect transistor-based glucose sensor by electronegativity modulation
+    venue: Scientific Reports
+    year: 2024
+    doi: 10.1038/s41598-024-76885-x
+    pdf: assets/pubs/4.pdf
+
+  - authors: "H. Hong†, M. J. Kim, D.-J. Yi, D. Y. Shin, Y.-K. Moon, K.-S. Son, J. H. Lim, K. Jeong*, K.-B. Chung*"
+    title: Quantitative dynamic evolution of unoccupied states in hydrogen diffused InGaZnSnO TFT under positive bias temperature stress
+    venue: ACS Applied Electronic Materials
+    year: 2024
+    doi: 10.1021/acsaelm.4c01430
+    pdf: assets/pubs/3.pdf
+
+  - authors: "H. Hong†, D.-J. Yi, Y.-K. Moon, K.-S. Son, J. H. Lim, K. Jeong, K.-B. Chung*"
+    title: Double gated a-InGaZnO TFT properties based on quantitative defect analysis and computational modeling
+    venue: IEEE Transactions on Electron Devices
+    year: 2024
+    doi: 10.1109/TED.2023.3347503
+    pdf: assets/pubs/2.pdf
+
+  - authors: "H. Hong†, M. J. Kim, D.-J. Yi, Y.-K. Moon, K.-S. Son, J. H. Lim, K. Jeong*, K.-B. Chung*"
+    title: Quantitative analysis of defect states in InGaZnO within 2 eV below the conduction band via photo-induced current transient spectroscopy
+    venue: Scientific Reports
+    year: 2023
+    doi: 10.1038/s41598-023-40162-0
+    pdf: assets/pubs/1.pdf
+
+covers:
+  - authors: "D. H. Kim, J. Yoo, H. C. Suh, Y. S. Won, S. H. Kim, D.-J. Yi, B. G. Jeong, C. Lee, D. Lee, K. K. Kim, S. M. Lee, E. K. Koh, M. S. Jeong"
+    title: Anomalous Phonon Softening with Inherent Strain in Wrinkled Monolayer WSe2 (Adv. Mater. 35/2025)
+    venue: Advanced Materials
+    detail: 37 (35), e70383 — Inside Front Cover
+    year: 2025
+    doi: 10.1002/adma.70383
+
+# Newest first; numbered automatically like papers.
+patents:
+  - authors: "K.-B. Chung, K. Jeong, D.-J. Yi, (Dongguk University Industry Academy Cooperation Foundation)"
+    title: Device Array Analysis Method and Analysis Apparatus Therefor
+    venue: US Patent
+    number: "18771046"
+  - authors: "K.-B. Chung, K. Jeong, D.-J. Yi, (Dongguk University Industry Academy Cooperation Foundation)"
+    title: Analysis Method of Semiconductor Device and Analysis Apparatus for the Method
+    venue: Patent, Republic of Korea
+    number: 10-2024-0049532
+  - authors: "K.-B. Chung, K. Jeong, D.-J. Yi, H. Hong, (Dongguk University Industry Academy Cooperation Foundation)"
+    title: Method of Confirming Performance of Secondary Battery and Apparatus of Performing the Same
+    venue: Patent, Republic of Korea
+    number: 10-2023-0161220

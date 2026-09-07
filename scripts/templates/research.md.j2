@@ -1,0 +1,10 @@
+{{ research.intro | safe }}
+
+{% for s in research.sections %}
+### {{ loop.index }}. {{ s.title }}
+
+{% for item in s['items'] %}
+- {{ item | safe }}
+{% endfor %}
+
+{% endfor %}

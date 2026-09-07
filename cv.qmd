@@ -1,0 +1,9 @@
+---
+pagetitle: "Curriculum Vitae"
+toc: false
+format:
+  html:
+    css: [styles.css, cv.css]
+---
+
+{{< include data/_gen/cv.html >}}

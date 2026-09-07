@@ -1,0 +1,8 @@
+```{=html}
+{% for g in grants %}
+<p><strong>“{{ g.title }}”</strong><br>
+{{ g.program }}<br>
+{{ g.funder }}<br>
+{{ g.period }} · {{ g.amount }}</p>
+{% endfor %}
+```

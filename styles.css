@@ -394,11 +394,6 @@ ol.pub-styled li::marker {
   color: var(--text-3);
 }
 
-/* patent list: separate counter, 3 items */
-.pub-patents { counter-reset: pat 4; }
-.pub-patents li { counter-increment: pat -1; }
-.pub-patents li::before { content: counter(pat); }
-
 /* authors: default text */
 .pub-authors { color: var(--text); }
 

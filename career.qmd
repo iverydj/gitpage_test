@@ -6,53 +6,18 @@ toc: true
 ::: {.section-block .career-edu}
 ## Background
 
-<p class="edu-entry">
-<span class="edu-degree">Ph.D. candidate</span> - <span class="edu-school">Department of Electronic Engineering, Hanyang University</span>, Seoul, Republic of Korea<br>
-<span class="edu-detail">GPA 4.3 / 4.5 · Mar 2024 – present</span><br>
-<span class="edu-lab">Semiconductor Nanophotonics Laboratory</span><br>
-<span class="edu-advisor">Advisor: Prof. Mun Seok Jeong</span>
-</p>
-
-<p class="edu-entry">
-<span class="edu-degree">M.S.</span> - <span class="edu-school">Department of Physics, Dongguk University</span>, Seoul, Republic of Korea<br>
-<span class="edu-detail">GPA 4.5 / 4.5 · Sep 2022 – Feb 2024</span><br>
-<span class="edu-lab">Advanced Physics on Electromaterial Laboratory</span><br>
-<span class="edu-advisor">Advisor: Prof. Kwun-Bum Chung</span><br>
-<span class="edu-thesis">Thesis: "Performance Control of InSnZnO/InGaZnO Multi-Channel-Layered Transistors with Defect Analysis of Amorphous Oxide Semiconductors"</span>
-</p>
-
-<p class="edu-entry">
-<span class="edu-degree">B.S.</span> - <span class="edu-school">Department of Physics, Dongguk University</span>, Seoul, Republic of Korea<br>
-<span class="edu-detail">GPA 4.2 / 4.5 · Mar 2016 – Aug 2022</span><br>
-<span class="edu-detail">Undergraduate researcher, APEL · Jul 2021 – Aug 2022</span>
-</p>
+{{< include data/_gen/career_education.html >}}
 :::
 
 ::: {.section-block}
 ## Research Fellowship
 
-**"Deep-Level Transient Spectroscopy and Nanospectroscopy for Ultrafine Defect Analysis Using Explainable AI in 2D Quantum Semiconductors"**\
-Basic Science Research Program, National Research Foundation of Korea (NRF)\
-Funded by the Ministry of Education\
-Sep 2025 – Aug 2027 · KRW 50 million
+{{< include data/_gen/career_grants.html >}}
 :::
 
 ::: {.section-block}
 ## Skills {.section-title}
 
-```{=html}
-<table class="skills-tbl">
-<colgroup>
-<col style="width: 230px">
-<col>
-</colgroup>
-<tbody>
-<tr><td><strong>Spectroscopy</strong></td><td>Raman, photoluminescence, ellipsometry, DLTS, tip-enhanced nanospectroscopy</td></tr>
-<tr><td><strong>Machine Learning</strong></td><td>Physics-based data analysis, deep learning for experimental data, explainable AI (XAI)</td></tr>
-<tr><td><strong>Simulation</strong></td><td>FDTD simulations, inverse design with adjoint optimization</td></tr>
-<tr><td><strong>Other Techniques</strong></td><td>Electrical characterization (e.g., I–V measurements), XPS, photolithography, sputtering</td></tr>
-</tbody>
-</table>
-```
+{{< include data/_gen/career_skills.html >}}
 
 :::

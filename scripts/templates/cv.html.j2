@@ -1,0 +1,133 @@
+```{=html}
+<div class="cv-toolbar">
+  <span class="cv-updated">Last updated: {{ profile.updated }}</span>
+  <button type="button" class="cv-print" onclick="window.print()">Save as PDF</button>
+</div>
+
+<article class="cv-sheet">
+
+<header class="cv-header">
+  <div class="cv-name" role="heading" aria-level="1"><span class="cv-first">{{ profile.name_first }}</span> <span class="cv-last">{{ profile.name_last }}</span></div>
+  <p class="cv-position">{{ profile.position }}, {{ profile.department }}, {{ profile.school }}</p>
+  <p class="cv-affil">{{ profile.lab }} <span class="cv-sep">|</span> Advisor: {{ profile.advisor }}</p>
+  <p class="cv-contact">
+    {% for m in profile.emails %}<a href="mailto:{{ m }}">{{ m }}</a>{% if not loop.last %} <span class="cv-sep">|</span> {% endif %}{% endfor %}
+    <span class="cv-sep">|</span> <a href="tel:{{ profile.phone | replace(' ', '') }}">{{ profile.phone }}</a>
+    <span class="cv-sep">|</span> <a href="{{ profile.homepage }}">{{ profile.homepage | replace('https://', '') }}</a>
+    <span class="cv-sep">|</span> <a href="{{ profile.scholar }}">Google Scholar</a>
+  </p>
+</header>
+
+<section class="cv-section">
+<h2>{{ "Education" | accent_first }}</h2>
+{% for e in education %}
+<div class="cv-entry">
+  <div class="cv-entry-row">
+    <span class="cv-entry-title">{{ e.degree }} in {{ e.field }} <span class="cv-gpa">(GPA {{ e.gpa }})</span></span>
+    <span class="cv-entry-date">{{ e.period }}{% if e.expected is defined %} (expected {{ e.expected }}){% endif %}</span>
+  </div>
+  <div class="cv-entry-row cv-entry-sub">
+    <span class="cv-entry-org">{{ e.department }}, {{ e.school }}</span>
+    <span class="cv-entry-loc">{{ e.location }}</span>
+  </div>
+  <ul class="cv-items">
+    {% if e.lab is defined %}<li>{{ e.lab }}</li>{% endif %}
+    {% if e.advisor is defined %}<li>Advisor: {{ e.advisor }}</li>{% endif %}
+    {% if e.thesis is defined %}<li>Thesis: “{{ e.thesis }}”</li>{% endif %}
+    {% for n in e.cv_notes | default([]) %}<li>{{ n }}</li>{% endfor %}
+  </ul>
+</div>
+{% endfor %}
+</section>
+
+<section class="cv-section">
+<h2>{{ "Research Fellowship" | accent_first }}</h2>
+{% for g in grants %}
+<div class="cv-entry">
+  <div class="cv-entry-row">
+    <span class="cv-entry-title">{{ g.role }}</span>
+    <span class="cv-entry-date">{{ g.period }}</span>
+  </div>
+  <div class="cv-entry-row cv-entry-sub">
+    <span class="cv-entry-org">{{ g.program }}</span>
+    <span class="cv-entry-loc">{{ g.amount }}</span>
+  </div>
+  <ul class="cv-items">
+    <li>Project: “{{ g.title }}”</li>
+    <li>{{ g.funder }} through the National Research Foundation of Korea (NRF).</li>
+  </ul>
+</div>
+{% endfor %}
+</section>
+
+<section class="cv-section">
+<h2>{{ "Scholarships & Awards" | accent_first }}</h2>
+<table class="cv-table cv-awards">
+<tbody>
+{% for a in awards %}
+<tr>
+  <td class="cv-award-year">{{ a.year }}</td>
+  <td><span class="cv-award-title">{{ a.title }}</span>{% if a.detail is defined %}<span class="cv-award-detail">, {{ a.detail }}</span>{% endif %}</td>
+  <td class="cv-award-org">{{ a.org }}</td>
+</tr>
+{% endfor %}
+</tbody>
+</table>
+</section>
+
+<section class="cv-section">
+<h2>{{ "Skills" | accent_first }}</h2>
+<table class="cv-table cv-skills">
+<tbody>
+{% for s in skills %}
+<tr><td class="cv-skill-cat">{{ s.category }}</td><td>{{ s['items'] }}</td></tr>
+{% endfor %}
+</tbody>
+</table>
+</section>
+
+<section class="cv-section cv-research">
+<h2>{{ "Research" | accent_first }}</h2>
+<p class="cv-para">{{ research.intro | safe }}</p>
+{% for s in research.sections %}
+<h3>{{ loop.index }}. {{ s.title }}</h3>
+<ul class="cv-items">
+{% for item in s['items'] %}
+  <li>{{ item | safe }}</li>
+{% endfor %}
+</ul>
+{% endfor %}
+</section>
+
+<section class="cv-section">
+<h2>{{ "Publications" | accent_first }}</h2>
+<p class="cv-note"><a href="{{ profile.scholar }}">Google Scholar</a> <span class="cv-sep">|</span> † First author <span class="cv-sep">|</span> * Corresponding author</p>
+<ol class="cv-pubs" reversed>
+{% for p in papers %}
+  <li>{{ p.authors | authors('<span class="cv-me">', '</span>') }}, “{{ p.title }},” <span class="cv-pub-venue">{{ p.venue }}</span>{% if p.detail is defined %}, {{ p.detail }}{% endif %} ({{ p.year }}){% if p.doi is defined %}, <a class="cv-doi" href="https://doi.org/{{ p.doi }}">DOI:{{ p.doi }}</a>{% endif %}</li>
+{% endfor %}
+</ol>
+<h3 class="cv-subhead">Cover Features</h3>
+<ul class="cv-pubs cv-covers">
+{% for c in covers %}
+  <li>{{ c.authors | authors('<span class="cv-me">', '</span>') }}, “{{ c.title }},” <span class="cv-pub-venue">{{ c.venue }}</span>, {{ c.detail }} ({{ c.year }}), <a class="cv-doi" href="https://doi.org/{{ c.doi }}">DOI:{{ c.doi }}</a></li>
+{% endfor %}
+</ul>
+</section>
+
+<section class="cv-section">
+<h2>{{ "Patents" | accent_first }}</h2>
+<ol class="cv-pubs" reversed>
+{% for t in patents %}
+  <li>{{ t.authors | authors('<span class="cv-me">', '</span>') }}. “{{ t.title }}.” <span class="cv-pub-venue">{{ t.venue }}</span>, {{ t.number }}.</li>
+{% endfor %}
+</ol>
+</section>
+
+<footer class="cv-footer">
+  <span>{{ profile.name_first }} {{ profile.name_last }} · Curriculum Vitae</span>
+  <span>Last updated: {{ profile.updated }}</span>
+</footer>
+
+</article>
+```

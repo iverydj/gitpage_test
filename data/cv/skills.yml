@@ -1,0 +1,8 @@
+- category: Spectroscopy
+  items: Raman, photoluminescence, ellipsometry, DLTS, tip-enhanced nanospectroscopy
+- category: Machine Learning
+  items: Physics-based data analysis, deep learning for experimental data, explainable AI (XAI)
+- category: Simulation
+  items: FDTD simulations, inverse design with adjoint optimization
+- category: Other Techniques
+  items: Electrical characterization (e.g., I–V measurements), XPS, photolithography, sputtering

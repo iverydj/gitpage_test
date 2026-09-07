@@ -6,6 +6,7 @@ project:
     - research.qmd
     - career.qmd
     - publications.qmd
+    - cv.qmd
 
 website:
   title: "Dong-Joon Yi"
@@ -17,6 +18,8 @@ website:
         text: Career
       - href: publications.qmd
         text: Publications
+      - href: cv.qmd
+        text: CV
   page-footer:
     left: "© Dong-Joon Yi"
     right: "iver.ydj@gmail.com"

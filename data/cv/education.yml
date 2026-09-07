@@ -1,0 +1,35 @@
+# Newest first. `notes` appear on both Career page and CV; `cv_notes` only on the CV.
+- degree: Ph.D. candidate
+  field: Electronic Engineering
+  department: Department of Electronic Engineering
+  school: Hanyang University
+  location: Seoul, Republic of Korea
+  gpa: 4.3 / 4.5
+  period: Mar 2024 – present
+  expected: Aug 2027
+  lab: Semiconductor Nanophotonics Laboratory
+  advisor: Prof. Mun Seok Jeong
+
+- degree: M.S.
+  field: Solid-state Physics
+  department: Department of Physics
+  school: Dongguk University
+  location: Seoul, Republic of Korea
+  gpa: 4.5 / 4.5
+  period: Sep 2022 – Feb 2024
+  lab: Advanced Physics on Electromaterial Laboratory
+  advisor: Prof. Kwun-Bum Chung
+  thesis: Performance Control of InSnZnO/InGaZnO Multi-Channel-Layered Transistors with Defect Analysis of Amorphous Oxide Semiconductors
+
+- degree: B.S.
+  field: Physics
+  department: Department of Physics
+  school: Dongguk University
+  location: Seoul, Republic of Korea
+  gpa: 4.2 / 4.5
+  period: Mar 2016 – Aug 2022
+  notes:
+    - Undergraduate researcher, APEL · Jul 2021 – Aug 2022
+  cv_notes:
+    - Undergraduate researcher, Advanced Physics on Electromaterial Laboratory (Jul 2021 – Aug 2022)
+    - Military service, Republic of Korea (Jun 2019 – Apr 2021)

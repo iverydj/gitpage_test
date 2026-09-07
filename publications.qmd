@@ -5,6 +5,6 @@ toc: false
 
 ::: {.section-block .pub-list}
 
-{{< include data/publications.md >}}
+{{< include data/_gen/publications.html >}}
 
 :::
