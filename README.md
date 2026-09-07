@@ -1,26 +1,30 @@
 ﻿# Dong-Joon Yi - Quarto Website
 
 This repository contains a Quarto-based personal academic website.
-The site is rendered to `docs/` and intended for GitHub Project Pages deployment.
+The site is rendered to `docs/` and published at https://iverydj.github.io/.
+GitHub Pages serves the `main` branch's `/docs` directory.
 
 ## Project Structure
 
 - `_quarto.yml`: Site configuration (navigation, format, output directory)
 - `styles.css`: Global visual system and responsive layout styles
 - `index.qmd`: Home page
-- `research.qmd`: Research page entry point
+- `research.qmd`: Research page, including its current text
 - `career.qmd`: Career/CV page
 - `publications.qmd`: Publications page
-- `data/research_section_en.md`: Main research text source included by `research.qmd`
+- `data/research_section_en.md`: Earlier research text; not included in the current site
 - `data/publications.md`: Publication list source included by `publications.qmd`
-- `data/research_total.png`, `data/research_part1.png`, `data/research_part2.png`, `data/research_part3.png`: Research figures
-- `assets/CV_2page.pdf`: Linked CV PDF
+- `data/research_total.png`, `data/research_part1.png`, `data/research_part2.png`, `data/research_part3.png`: Research figures not currently displayed
+- `assets/CV_DongJoonYi.pdf`: Three-page CV linked from the Career page
+- `assets/cv_src/`: LaTeX source and build script for the CV
+- `docs/`: Generated HTML, search index, styles, and linked resources
 
 ## Local Preview
 
 Prerequisite: install Quarto and ensure the `quarto` command is available in your terminal.
+The current output was built with Quarto 1.9.37.
 
-```powershell
+```sh
 quarto preview
 ```
 
@@ -29,22 +33,31 @@ quarto preview
 
 ## Static Build
 
-```powershell
+```sh
 quarto render
 ```
 
 - Output is generated in `docs/`.
+- Rendering also refreshes `docs/search.json` and copies linked resources, including the CV PDF.
 - Do not edit `docs/` manually; re-render from source files.
 
-## Publish to GitHub Project Pages (Manual Flow)
+## Updating Content
 
-1. Push this project to a GitHub repository.
-2. Run `quarto render` locally so the latest files are in `docs/`.
-3. Commit and push both source files and `docs/`.
-4. In GitHub, open `Settings > Pages`.
-5. Under **Source**, choose **Deploy from a branch**.
-6. Set **Branch** to `main` and **Folder** to `/docs`, then save.
-7. Wait for deployment, then open the published URL shown in Pages settings.
+- Edit the corresponding `.qmd` file for Home, Research, or Career.
+- Edit `data/publications.md` for publications. The main `<ol reversed>` numbers papers automatically; cover features are listed separately.
+- Update the `Last updated` text in `index.qmd` when publishing content changes.
+- The CV is a separate document: website edits do not update its PDF. Its current PDF does not yet include the Small 2026 paper added to the website.
+- To update the CV, edit `assets/cv_src/cv.tex` and run `bash assets/cv_src/build.sh` in an environment with XeLaTeX and the fonts listed in that script. Then render the website to copy the updated PDF into `docs/`.
+
+## Publish to GitHub Pages (Manual Flow)
+
+1. Run `quarto render` locally so the latest files are in `docs/`.
+2. Preview the pages and verify navigation, search, and PDF downloads.
+3. Review and commit the source files and generated `docs/` output, including new generated assets.
+4. Push the reviewed commit when publication is authorized.
+5. Confirm that the `pages build and deployment` workflow succeeds, then check https://iverydj.github.io/.
+
+For initial setup, choose **Deploy from a branch** in **Settings > Pages**, with branch `main` and folder `/docs`.
 
 ## Troubleshooting (Images Not Showing)
 

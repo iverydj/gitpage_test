@@ -1,12 +1,20 @@
 <p class="pub-note">† First author, * Corresponding author</p>
 
-<ul class="pub-styled">
+<ol class="pub-styled" reversed>
 
 <li>
 <span class="pub-authors">Y. Cho, J. Yoo, S. Yang, <u><b>D.-J. Yi</b></u>, S. M. Lee, M. S. Jeong, J. Choo</span>
 <span class="pub-title">"Position: Significant impact of numerical precision in scientific machine learning"</span>
 <span class="pub-journal">International Conference on Machine Learning (ICML), Position Paper Track</span>
 <span class="pub-year">(2026)</span>
+</li>
+
+<li>
+<span class="pub-authors">S. Bang†, D. Choi, H. C. Suh, C. Lee, S. Lim, Y. J. Yu, D. H. Kim, S. H. Kim, J. Yoo, T. Kim, D. Lee, H. J. Park, U. J. Kim, <u><b>D.-J. Yi</b></u>, H. Oh&#42;, D.-W. Kim&#42;, M. S. Jeong&#42;</span>
+<span class="pub-title">"Ultrawide Charge-Trap Memory Window and Photoinduced Synaptic Behavior in p-Channel Amorphous Oxide Semiconductors"</span>
+<span class="pub-journal">Small</span>, e74713
+<span class="pub-year">(2026)</span>
+<span class="pub-doi"><a href="https://doi.org/10.1002/smll.74713">DOI:10.1002/smll.74713</a></span>
 </li>
 
 <li>
@@ -64,7 +72,7 @@
 </li>
 
 <li>
-<span class="pub-authors">H. Hong†, M. J. Kim, <u><b>D.-J. Yi</b></u>, D. Y. Shin, Y.-K. Moon, K.-B. Chung&#42;</span>
+<span class="pub-authors">H. Hong†, M. J. Kim, <u><b>D.-J. Yi</b></u>, D. Y. Shin, Y.-K. Moon, K.-S. Son, J. H. Lim, K. Jeong&#42;, K.-B. Chung&#42;</span>
 <span class="pub-title">"Quantitative dynamic evolution of unoccupied states in hydrogen diffused InGaZnSnO TFT under positive bias temperature stress"</span>
 <span class="pub-journal">ACS Applied Electronic Materials</span>
 <span class="pub-year">(2024)</span>
@@ -90,6 +98,18 @@
 <span class="pub-pdf"><a href="assets/pubs/1.pdf" target="_blank">[PDF]</a></span>
 </li>
 
+</ol>
+
+<p class="pub-patent-header">[Cover Features]</p>
+
+<ul class="pub-covers">
+<li>
+<span class="pub-authors">D. H. Kim, J. Yoo, H. C. Suh, Y. S. Won, S. H. Kim, <u><b>D.-J. Yi</b></u>, B. G. Jeong, C. Lee, D. Lee, K. K. Kim, S. M. Lee, E. K. Koh, M. S. Jeong</span>
+<span class="pub-title">"Anomalous Phonon Softening with Inherent Strain in Wrinkled Monolayer WSe2 (Adv. Mater. 35/2025)"</span>
+<span class="pub-journal">Advanced Materials</span> 37 (35), e70383 — Inside Front Cover
+<span class="pub-year">(2025)</span>
+<span class="pub-doi"><a href="https://doi.org/10.1002/adma.70383">DOI:10.1002/adma.70383</a></span>
+</li>
 </ul>
 
 <p class="pub-patent-header">[Patents]</p>

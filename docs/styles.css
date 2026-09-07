@@ -118,7 +118,6 @@ main a:hover {
 }
 
 .navbar-toggler { border-color: var(--border) !important; }
-.navbar-toggler-icon { filter: invert(0.8); }
 
 /* ── Home: Last update ── */
 .last-update {
@@ -209,6 +208,26 @@ main a:hover {
   color: var(--blue);
   font-weight: 600;
 }
+
+.contact-row {
+  display: grid;
+  grid-template-columns: 8rem minmax(0, 1fr);
+  gap: 0 0.8rem;
+  margin-bottom: 0.5rem;
+}
+.contact-row:last-child { margin-bottom: 0; }
+.contact-row dd { margin: 0; overflow-wrap: anywhere; }
+
+.cv-download {
+  display: inline-block;
+  padding: 0.55rem 0.9rem;
+  border: 1px solid var(--cyan);
+  border-radius: 4px;
+  color: var(--cyan);
+  font-weight: 600;
+}
+.cv-download:hover { background: var(--bg-hover); color: var(--text); }
+.cv-download:focus-visible { outline: 2px solid var(--cyan); outline-offset: 3px; }
 
 /* legacy - unused */
 .hero-tagline { display: none; }
@@ -346,16 +365,14 @@ main a:hover {
   margin-bottom: 0.5rem;
 }
 
-/* styled list (reversed numbering: top = max, bottom = 1) */
+/* Publication numbering follows the item count via <ol reversed>. */
 .pub-styled {
   list-style: none;
   margin: 0;
   padding: 0;
-  counter-reset: pub 11; /* (publication count) + 1 = 10 + 1 */
 }
 
 .pub-styled li {
-  counter-increment: pub -1;
   position: relative;
   padding: 0.7rem 0 0.7rem 2.2rem;
   border-bottom: 1px solid var(--border-light);
@@ -367,7 +384,6 @@ main a:hover {
 .pub-styled li:last-child { border-bottom: none; }
 
 .pub-styled li::before {
-  content: counter(pub);
   position: absolute;
   left: 0;
   top: 0.7rem;
@@ -377,6 +393,16 @@ main a:hover {
   color: var(--text-3);
   width: 1.5rem;
   text-align: right;
+}
+
+ol.pub-styled { list-style: decimal outside; padding-left: 2.2rem; }
+ol.pub-styled li { padding-left: 0.6rem; }
+ol.pub-styled li::before { content: none; }
+ol.pub-styled li::marker {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-3);
 }
 
 /* patent list: separate counter, 3 items */
@@ -393,6 +419,11 @@ main a:hover {
 
 /* title in quotes: cyan */
 .pub-title { color: var(--cyan); }
+
+ol.pub-styled > li > .pub-authors,
+ol.pub-styled > li > .pub-title,
+.pub-covers > li > .pub-authors,
+.pub-covers > li > .pub-title { display: block; margin-bottom: 0.25rem; }
 
 /* journal name: orange */
 .pub-journal { color: var(--orange); font-style: italic; }
@@ -514,10 +545,17 @@ tbody tr:hover { background: var(--bg-hover); }
 @media (max-width: 680px) {
   .hero { margin-top: 1.5rem; padding: 1rem 1.2rem; }
   .hero-name { font-size: 1.6rem; }
-  .hero-contact { font-size: 12px; word-break: break-all; }
+  .hero-contact { font-size: 12px; }
+  .contact-row { grid-template-columns: minmax(0, 1fr); }
   .section-block, .home-section { padding: 1rem; }
   .research-keywords span { font-size: 11px; }
   .pub-styled li { padding-left: 1.5rem; }
   .pub-styled li::before { width: 1rem; }
-  .skills-tbl col:first-child { width: auto !important; }
+  .skills-tbl colgroup { display: none; }
+  .skills-tbl, .skills-tbl tbody, .skills-tbl tr, .skills-tbl td { display: block; }
+  .skills-tbl tr { border-bottom: 1px solid var(--border-light); }
+  .skills-tbl tr:last-child { border-bottom: none; }
+  .skills-tbl td { border-bottom: none; }
+  .skills-tbl td:first-child { padding-bottom: 0; }
+  .skills-tbl td:last-child { padding-top: 0.2rem; }
 }
